@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: api-json-validator-v1
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
